@@ -9,12 +9,18 @@ export const config: PlasmoCSConfig = {
 }
 
 let pressedKeys: string[] = []
+let timer: NodeJS.Timeout = null
 
 const onKeydown = (event: KeyboardEvent) => {
   const { key } = event
   if (!pressedKeys.includes(key)) {
     pressedKeys.push(key)
   }
+
+  clearTimeout(timer)
+  timer = setTimeout(() => {
+    pressedKeys = []
+  }, 3000)
 
   const teleportPoint = teleportPoints
     .find(({ hotkey }) => areArraysEqual(hotkey, pressedKeys))
