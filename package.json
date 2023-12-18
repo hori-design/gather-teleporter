@@ -19,7 +19,7 @@
     "@types/chrome": "0.0.245",
     "@types/node": "20.5.9",
     "@types/react": "18.2.21",
-    "@types/react-dom": "18.2.7",
+    "@types/react-dom": "18.2.18",
     "prettier": "3.0.3",
     "typescript": "5.2.2"
   },
