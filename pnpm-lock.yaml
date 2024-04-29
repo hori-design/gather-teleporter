@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   plasmo:
-    specifier: 0.85.2
-    version: 0.85.2(react-dom@18.2.0)(react@18.2.0)
+    specifier: 0.86.1
+    version: 0.86.1(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -1872,8 +1872,8 @@ packages:
       - '@parcel/core'
     dev: false
 
-  /@plasmohq/parcel-config@0.40.5(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-2uXGCURaKazxG8UKGnwZCQ0cfi9sns9JkyC5ERVQJqTmjE81Rwzd/QxjuoufQ2/kvcg3klb3952X1znmD7prlQ==}
+  /@plasmohq/parcel-config@0.40.6(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-vHziUFcOa1pGsnEMsbmKNHh/KoiZQV6Fc1Ocw5nzXJv52wKBdF3MMpqAVphyBjhMLDyXUpI72ntNXhGBVVKo0g==}
     dependencies:
       '@parcel/compressor-raw': 2.9.3(@parcel/core@2.9.3)
       '@parcel/config-default': 2.9.3(@parcel/core@2.9.3)(typescript@5.2.2)
@@ -1908,7 +1908,7 @@ packages:
       '@plasmohq/parcel-transformer-inject-env': 0.2.11
       '@plasmohq/parcel-transformer-inline-css': 0.3.11
       '@plasmohq/parcel-transformer-manifest': 0.18.0
-      '@plasmohq/parcel-transformer-svelte': 0.5.2
+      '@plasmohq/parcel-transformer-svelte': 0.6.0
       '@plasmohq/parcel-transformer-vue': 0.5.0(react-dom@18.2.0)(react@18.2.0)
     transitivePeerDependencies:
       - '@swc/core'
@@ -2115,8 +2115,8 @@ packages:
       nullthrows: 1.1.1
     dev: false
 
-  /@plasmohq/parcel-transformer-svelte@0.5.2:
-    resolution: {integrity: sha512-kZevkKYgYB7KZqi1+8k5ELqrSNKakqBwuTLnIT0BOx/8VKTJ6fwkzW0SR1OFsDJIACRFbMLO77u+erwHkodBEA==}
+  /@plasmohq/parcel-transformer-svelte@0.6.0:
+    resolution: {integrity: sha512-5lZW6NBtzhJaCyjpKaZF1/YzY9CF+kbfNknvASJB/Cf6uJPJlrgdxoWiVJ8IWMs3DyLgAnJXTdIU+uwjwXP1wg==}
     engines: {parcel: '>= 2.7.0'}
     dependencies:
       '@parcel/core': 2.9.3
@@ -2124,7 +2124,7 @@ packages:
       '@parcel/plugin': 2.9.3(@parcel/core@2.9.3)
       '@parcel/source-map': 2.1.1
       '@parcel/utils': 2.9.3
-      svelte: 4.0.1
+      svelte: 4.2.2
     dev: false
 
   /@plasmohq/parcel-transformer-vue@0.5.0(react-dom@18.2.0)(react@18.2.0):
@@ -4653,8 +4653,8 @@ packages:
     engines: {node: '>= 6'}
     dev: false
 
-  /plasmo@0.85.2(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-qf9mONnb0JV0quYMM3qi23wuAIabzlhsDmHw4HMuBXjDp0ysruzGoOiFQmAbEMK7lMMFFepPkcDftu0c8MNhBw==}
+  /plasmo@0.86.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-6qDWnQ8TVGLmGIWWOoXR0upCuNW6LnlrLEQ0b0EMRoApomps9q77908hNKJWbDlz5rqXOhcpecaVTQ0mx8lzCw==}
     hasBin: true
     dependencies:
       '@expo/spawn-async': 1.7.2
@@ -4663,7 +4663,7 @@ packages:
       '@parcel/package-manager': 2.9.3(@parcel/core@2.9.3)
       '@parcel/watcher': 2.2.0
       '@plasmohq/init': 0.7.0
-      '@plasmohq/parcel-config': 0.40.5(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)
+      '@plasmohq/parcel-config': 0.40.6(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)
       '@plasmohq/parcel-core': 0.1.8
       buffer: 6.0.3
       chalk: 5.3.0
@@ -5212,8 +5212,8 @@ packages:
       has-flag: 4.0.0
     dev: false
 
-  /svelte@4.0.1:
-    resolution: {integrity: sha512-7n2u7A5cu8xCY6MBiXh/Mg6Lh3+Mw2qXlTDBYhzvCvmSM4L4gc4MVo540UtGcjqBiA48E1VDW+EUpBr7iuBlPg==}
+  /svelte@4.2.2:
+    resolution: {integrity: sha512-My2tytF2e2NnHSpn2M7/3VdXT4JdTglYVUuSuK/mXL2XtulPYbeBfl8Dm1QiaKRn0zoULRnL+EtfZHHP0k4H3A==}
     engines: {node: '>=16'}
     dependencies:
       '@ampproject/remapping': 2.2.1
