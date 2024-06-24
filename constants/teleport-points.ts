@@ -13,19 +13,19 @@ export const teleportPoints: TeleportPoint[] = [
   },
 
   { // Meeting 1
-    hotkey: ['Shift', 'M', '!'],
+    hotkey: ['Shift', 'N', '!'],
     position: {x: 53, y: 19},
   },
   { // Meeting 2
-    hotkey: ['Shift', 'M', '"'],
+    hotkey: ['Shift', 'N', '"'],
     position: {x: 58, y: 19},
   },
   { // Meeting 3
-    hotkey: ['Shift', 'M', '#'],
+    hotkey: ['Shift', 'N', '#'],
     position: {x: 63, y: 19},
   },
   { // Meeting 4
-    hotkey: ['Shift', 'M', '$'],
+    hotkey: ['Shift', 'N', '$'],
     position: {x: 68, y: 19},
   },
 
