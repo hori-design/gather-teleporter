@@ -22,8 +22,8 @@ importers:
         specifier: 4.4.2
         version: 4.4.2(@vue/compiler-sfc@3.3.4)(prettier@3.6.0)
       '@types/chrome':
-        specifier: 0.0.326
-        version: 0.0.326
+        specifier: 0.0.328
+        version: 0.0.328
       '@types/node':
         specifier: 24.0.3
         version: 24.0.3
@@ -1492,8 +1492,8 @@ packages:
     resolution: {integrity: sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==}
     engines: {node: '>=10.13.0'}
 
-  '@types/chrome@0.0.326':
-    resolution: {integrity: sha512-WS7jKf3ZRZFHOX7dATCZwqNJgdfiSF0qBRFxaO0LhIOvTNBrfkab26bsZwp6EBpYtqp8loMHJTnD6vDTLWPKYw==}
+  '@types/chrome@0.0.328':
+    resolution: {integrity: sha512-Mv/TQMFMpGBTqWQOQsYcAd3qDncH/Q+Dz7iJVjkwb98uLeM8xZVEYH3VR5Jh+su9IBksbumJeazakK8WqBAgFA==}
 
   '@types/estree@1.0.7':
     resolution: {integrity: sha512-w28IoSUCJpidD/TGviZwwMJckNESJZXFu7NBZ5YJ4mEUnNraUn9Pm8HSZm/jDF1pDWYKspWE7oVphigUPRakIQ==}
@@ -4751,7 +4751,7 @@ snapshots:
 
   '@trysound/sax@0.2.0': {}
 
-  '@types/chrome@0.0.326':
+  '@types/chrome@0.0.328':
     dependencies:
       '@types/filesystem': 0.0.36
       '@types/har-format': 1.2.16
