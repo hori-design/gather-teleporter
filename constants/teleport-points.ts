@@ -17,7 +17,7 @@ export const teleportPoints: TeleportPoint[] = [
     position: {x: 54, y: 13},
   },
   { // Pair Programming 2
-    hotkey: ['Shift', 'P', '"'],
+    hotkey: ['Shift', 'P', '@'],
     position: {x: 64, y: 13},
   },
 
@@ -26,7 +26,7 @@ export const teleportPoints: TeleportPoint[] = [
     position: {x: 53, y: 19},
   },
   { // Meeting 2
-    hotkey: ['Shift', 'N', '"'],
+    hotkey: ['Shift', 'N', '@'],
     position: {x: 58, y: 19},
   },
   { // Meeting 3
@@ -47,7 +47,7 @@ export const teleportPoints: TeleportPoint[] = [
     position: {x: 56, y: 29},
   },
   { // Center Meeting 2
-    hotkey: ['Shift', 'C', '"'],
+    hotkey: ['Shift', 'C', '@'],
     position: {x: 62, y: 29},
   },
 
@@ -56,7 +56,7 @@ export const teleportPoints: TeleportPoint[] = [
     position: {x: 76, y: 37},
   },
   { // 1on1 2
-    hotkey: ['Shift', 'O', '"'],
+    hotkey: ['Shift', 'O', '@'],
     position: {x: 72, y: 37},
   },
   { // 1on1 3
@@ -72,7 +72,7 @@ export const teleportPoints: TeleportPoint[] = [
     position: {x: 76, y: 26},
   },
   { // 1on1 6
-    hotkey: ['Shift', 'O', '&'],
+    hotkey: ['Shift', 'O', '^'],
     position: {x: 72, y: 26},
   },
 
